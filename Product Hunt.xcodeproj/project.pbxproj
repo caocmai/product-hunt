@@ -18,6 +18,7 @@
 		2C8B09CC244A97E900058C11 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8B09CB244A97E900058C11 /* NetworkManager.swift */; };
 		2C8B09CE244AA4D200058C11 /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8B09CD244AA4D200058C11 /* CommentsViewController.swift */; };
 		2C8B09D0244AA5E800058C11 /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8B09CF244AA5E800058C11 /* CommentTableViewCell.swift */; };
+		2C8B09D2244AAA6C00058C11 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8B09D1244AAA6C00058C11 /* Comment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		2C8B09CB244A97E900058C11 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		2C8B09CD244AA4D200058C11 /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
 		2C8B09CF244AA5E800058C11 /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		2C8B09D1244AAA6C00058C11 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				2C8B09B5244A7FF500058C11 /* SceneDelegate.swift */,
 				2C8B09B7244A7FF500058C11 /* FeedViewController.swift */,
 				2C8B09C7244A857800058C11 /* Post.swift */,
+				2C8B09D1244AAA6C00058C11 /* Comment.swift */,
 				2C8B09CB244A97E900058C11 /* NetworkManager.swift */,
 				2C8B09C9244A8E6000058C11 /* PostTableViewCell.swift */,
 				2C8B09B9244A7FF500058C11 /* Main.storyboard */,
@@ -160,6 +163,7 @@
 				2C8B09B4244A7FF500058C11 /* AppDelegate.swift in Sources */,
 				2C8B09CA244A8E6000058C11 /* PostTableViewCell.swift in Sources */,
 				2C8B09B6244A7FF500058C11 /* SceneDelegate.swift in Sources */,
+				2C8B09D2244AAA6C00058C11 /* Comment.swift in Sources */,
 				2C8B09C8244A857800058C11 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
