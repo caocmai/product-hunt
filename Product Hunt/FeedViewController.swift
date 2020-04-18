@@ -10,8 +10,13 @@ import UIKit
 
 class FeedViewController: UIViewController {
     
-    var mockData: [Post] = []
-    
+    var posts: [Post] = [] {
+        didSet {
+            feedTableView.reloadData()
+        }
+    }
+    var networkManager = NetworkManager()
+
     
     @IBOutlet weak var feedTableView: UITableView!
     
@@ -21,6 +26,14 @@ class FeedViewController: UIViewController {
         // Do any additional setup after loading the view.
         feedTableView.dataSource = self
         feedTableView.delegate = self
+        updateFeed()
+    }
+    
+    func updateFeed() {
+        // call our network manager's getPosts method to update our feed with posts
+        networkManager.getPosts() { result in
+            self.posts = result
+        }
     }
     
     
@@ -30,7 +43,7 @@ class FeedViewController: UIViewController {
 extension FeedViewController: UITableViewDataSource {
     /// Determines how many cells will be shown on the table view.
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return mockData.count
+        return posts.count
     }
     
     /// Creates and configures each cell.
@@ -38,7 +51,7 @@ extension FeedViewController: UITableViewDataSource {
         // dequeue and return an available cell, instead of creating a new cell
         let cell = tableView.dequeueReusableCell(withIdentifier: "postCell", for: indexPath) as! PostTableViewCell
         
-        let post = mockData[indexPath.row]
+        let post = posts[indexPath.row]
         cell.post = post
         
         return cell
