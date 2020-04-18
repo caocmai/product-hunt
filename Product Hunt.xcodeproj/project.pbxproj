@@ -14,6 +14,7 @@
 		2C8B09BD244A7FF600058C11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C8B09BC244A7FF600058C11 /* Assets.xcassets */; };
 		2C8B09C0244A7FF600058C11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8B09BE244A7FF600058C11 /* LaunchScreen.storyboard */; };
 		2C8B09C8244A857800058C11 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8B09C7244A857800058C11 /* Post.swift */; };
+		2C8B09CA244A8E6000058C11 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8B09C9244A8E6000058C11 /* PostTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		2C8B09BF244A7FF600058C11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C8B09C1244A7FF600058C11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C8B09C7244A857800058C11 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		2C8B09C9244A8E6000058C11 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				2C8B09B5244A7FF500058C11 /* SceneDelegate.swift */,
 				2C8B09B7244A7FF500058C11 /* FeedViewController.swift */,
 				2C8B09C7244A857800058C11 /* Post.swift */,
+				2C8B09C9244A8E6000058C11 /* PostTableViewCell.swift */,
 				2C8B09B9244A7FF500058C11 /* Main.storyboard */,
 				2C8B09BC244A7FF600058C11 /* Assets.xcassets */,
 				2C8B09BE244A7FF600058C11 /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 			files = (
 				2C8B09B8244A7FF500058C11 /* FeedViewController.swift in Sources */,
 				2C8B09B4244A7FF500058C11 /* AppDelegate.swift in Sources */,
+				2C8B09CA244A8E6000058C11 /* PostTableViewCell.swift in Sources */,
 				2C8B09B6244A7FF500058C11 /* SceneDelegate.swift in Sources */,
 				2C8B09C8244A857800058C11 /* Post.swift in Sources */,
 			);
