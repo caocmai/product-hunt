@@ -16,7 +16,7 @@ class FeedViewController: UIViewController {
         }
     }
     var networkManager = NetworkManager()
-
+    
     
     @IBOutlet weak var feedTableView: UITableView!
     
@@ -66,4 +66,19 @@ extension FeedViewController: UITableViewDelegate {
         // provide a fixed size
         return 250
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("selected")
+//        let post = posts[indexPath.row]
+        // Get the storyboard
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        // Get the commentsView from the storyboard
+        guard let commentsView = storyboard.instantiateViewController(withIdentifier: "commentsView") as? CommentsViewController else {
+            return
+        }
+        // add mock comments
+        commentsView.comments = ["Blah blah blah!", "Good app.", "Wow."]
+        navigationController?.pushViewController(commentsView, animated: true)
+    }
+    
 }
