@@ -5,8 +5,8 @@ Mobile 1.3 tutorial on retrieving and using data from the Product Hunt API.
 The purpose of this tutorial is to learn about building a network layer in Swift, decoding JSON into Swift models, and displaying data retrieved from API in UITableViews. The API used in this app is from [Product Hunt](https://api.producthunt.com/v1/docs)
 
 ### Features
-* Home Screen - displays the list of Product Hunt posts in UITableView
-* Comment Screen - displays all comments of a selected post in UITableView
+* Home Screen - displays the list of Product Hunt posts as UITableView
+* Comment Screen - displays all comments of a selected post as UITableView
 
 ### App Walk-through
 ![](productHuntWalk.gif)
