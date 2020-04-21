@@ -6,7 +6,7 @@ The purpose of this tutorial is to learn about building a network layer in Swift
 
 ### Features
 * Home Screen - displays the list of Product Hunt posts in UITableView
-* Comment Screen - displays the image of the comments of a selected post in UITableView
+* Comment Screen - displays all comments of a selected post in UITableView
 
 ### App Walk-through
 ![](productHuntWalk.gif)
